@@ -1,0 +1,15 @@
+let table = document.querySelector("#age-table")
+let label = document.getElementsByTagName('label')
+let td = document.querySelector('td')
+let search = document.querySelector('form[name="search"]')
+let input = document.querySelector('input')
+let inputs = document.querySelectorAll('input')
+
+
+console.log(table)
+console.log(label)
+console.log(document.querySelectorAll('#age-table label'))
+console.log(td)
+console.log(search)
+console.log(input)
+console.log(inputs[inputs.length-1])
